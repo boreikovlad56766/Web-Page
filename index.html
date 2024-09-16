@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Git - Системи контролю версій</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#intro">Про Git</a></li>
+                <li><a href="#features">Можливості</a></li>
+                <li><a href="#commands">Команди</a></li>
+                <li><a href="#certificate">Сертифікат</a></li>
+                <li><a href="#sources">Джерела</a></li>
+            </ul>
+        </nav>
+        <h1>Git - Система Контролю Версій</h1>
+    </header>
+
+    <main>
+        <section id="intro">
+            <h2>Коротка інформація про системи контролю версій та Git</h2>
+            <p>Система контролю версій (СКВ) дозволяє зберігати різні версії файлів, відслідковувати зміни та управляти історією проекту. Git є однією з найпопулярніших систем контролю версій, яка була створена Лінусом Торвальдсом в 2005 році. Вона є розподіленою системою, що дозволяє зберігати копії проектів на різних пристроях.</p>
+        </section>
+        
+        <section id="features">
+            <h2>Основні можливості та переваги використання Git</h2>
+            <ul>
+                <li>Розподілена архітектура, що дозволяє працювати без постійного доступу до інтернету.</li>
+                <li>Відстеження змін у файлах та зберігання історії проєкту.</li>
+                <li>Паралельна робота над проектом декількох розробників через гілки (branches).</li>
+                <li>Легке злиття (merge) змін з різних гілок.</li>
+                <li>Безпека даних за рахунок хешування кожної зміни.</li>
+            </ul>
+        </section>
+        
+        <section id="commands">
+            <h2>10 базових команд Git з коментарями</h2>
+            <ol>
+                <li><code>git init</code> – Ініціалізує новий Git-репозиторій у поточній директорії.</li>
+                <li><code>git clone [URL]</code> – Клонує репозиторій з віддаленого сервера на локальний комп'ютер.</li>
+                <li><code>git status</code> – Виводить інформацію про стан робочого каталогу і індексу.</li>
+                <li><code>git add [файл]</code> – Додає файл до індексу для наступного коміту.</li>
+                <li><code>git commit -m "[повідомлення]"</code> – Створює новий коміт з доданими файлами.</li>
+                <li><code>git push</code> – Відправляє коміти з локального репозиторію на віддалений сервер.</li>
+                <li><code>git pull</code> – Оновлює локальний репозиторій, отримуючи останні зміни з віддаленого.</li>
+                <li><code>git branch</code> – Переглядає всі гілки в репозиторії.</li>
+                <li><code>git checkout [гілка]</code> – Перемикається на іншу гілку.</li>
+                <li><code>git merge [гілка]</code> – Зливає вказану гілку з поточною.</li>
+            </ol>
+        </section>
+        
+        <section id="certificate">
+            <h2>Сертифікат курсу по Git</h2>
+            <img src="p1.jpg" alt="Сертифікат" style="width: 800px;;">
+        </section>
+        
+        
+        <section id="sources">
+            <h2>Джерела інформації</h2>
+            <ul>
+                <li><a href="https://git-scm.com/" target="_blank">Офіційна документація Git</a></li>
+                <li><a href="https://www.atlassian.com/git/tutorials" target="_blank">Посібник з Git від Atlassian</a></li>
+                <li><a href="https://learngitbranching.js.org/" target="_blank">Інтерактивний тренажер для роботи з гілками</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Git Tutorial</p>
+    </footer>
+</body>
+</html>
